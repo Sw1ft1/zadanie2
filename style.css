@@ -1,12 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c2c2c;
+    color: #f5f5dc;
+    margin: 0;
+    padding: 0;
+}
 
-.cvet
-{
-color:brown;
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
 }
-.fon1 {
-background-color: #000000;
+
+header h1 {
+    margin: 0;
 }
-.fon2 {
-background-color: #FFFFFF;
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #3b3b3b;
 }
-(c) Корецкий Даниил 2022
+
+nav a {
+    color: #f5f5dc;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #f5f5dc;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
